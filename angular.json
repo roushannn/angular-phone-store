@@ -117,8 +117,16 @@
               "devServerTarget": "my-phone-store:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "my-phone-store"
+    }
+  },
+  "defaultProject": "my-phone-store",
+  "cli": {
+    "analytics": "75d665f3-6fc3-4bc2-81da-7f730a2f0ff9"
+  }
 }

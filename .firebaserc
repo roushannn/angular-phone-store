@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "my-phone-store-38025": {
+      "hosting": {
+        "my-phone-store": [
+          "my-phone-store-38025"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "my-phone-store-38025"
+  }
+}
